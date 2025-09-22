@@ -1,4 +1,5 @@
-#Mexicanto
+#Mexicanto: 
+
 Mexicanto es una página donde las personas pueden conocer el encanto de México. Está diseñada para recomendar experiencias en un menú estilo marketplace. En esta plataforma se creará un repositorio de lugares, actividades y experiencias en un solo sitio.
 
 La información disponible deberá ser:
