@@ -1,12 +1,35 @@
-# React + Vite
+#Mexicanto
+Mexicanto es una página donde las personas pueden conocer el encanto de México. Está diseñada para recomendar experiencias en un menú estilo marketplace. En esta plataforma se creará un repositorio de lugares, actividades y experiencias en un solo sitio.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+La información disponible deberá ser:
+Lugares culturales relevantes (Pueblos Mágicos, zonas arqueológicas, museos).
+Historia y significado de tradiciones mexicanas.
+Gastronomía típica de cada región.
+Recomendaciones de actividades y experiencias culturales
+Información de contacto.
 
-Currently, two official plugins are available:
+---------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+#Arquitectura de información:
 
-## Expanding the ESLint configuration
+Home 
+ Presentación general, menú principal y slider con imágenes culturales.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Destinos turísticos 
+ Información sobre Pueblos Mágicos, zonas arqueológicas y rutas culturales.
+
+Galería 
+ Fotografías y videos de los destinos.
+
+Juego Interactivo 
+Mini quiz sobre cultura mexicana.
+
+Contacto
+Formulario de contacto con nombre, correo y mensaje.
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------
+#Tecnologias
+
+Este proyecto se creó usando React, Tailwind, Vite y Toaster porque nuestro dev ya sabía manejarlas, lo que nos permitió construir páginas interactivas y estilizadas rápidamente sin complicarnos con configuraciones complejas. Cada página es un componente independiente (Home, Destinos, Galería, Juego, Contacto), con estados y grids manejados directamente en React y estilos aplicados con Tailwind, mientras Vite acelera el desarrollo y Toaster facilita mostrar notificaciones.
+
+
